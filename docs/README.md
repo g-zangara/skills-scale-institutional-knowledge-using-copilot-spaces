@@ -1,24 +1,28 @@
 # OctoAcme Project Management Docs
 
-This folder contains the process documentation for OctoAcme project delivery. Use these docs as a reference throughout the project lifecycle — from kicking off a new initiative to reflecting on what went well after a release.
+This folder is the central reference for how OctoAcme plans, runs, and improves projects. The documents below cover the full project lifecycle and supporting practices.
 
 ## Process Overview
 
-OctoAcme projects follow a structured lifecycle built around iterative delivery and clear ownership. The stages move from **Initiation** (validating the idea, aligning stakeholders, and defining success criteria) through **Planning** (building a prioritized backlog, estimating scope, and mapping milestones) into **Execution** (daily standups, project board tracking, pull request workflow, and quality gates). Projects close with a **Release** phase (staging verification, deployment checklist, rollback plan, and post-deploy checks) followed by a **Retrospective** to capture learnings and feed them back as improvement actions.
+OctoAcme organizes project delivery around five stages, with risk management and communication running as continuous threads throughout:
 
-Running throughout the lifecycle are **Risk & Communication** practices: a risk register maintained from initiation, structured escalation paths, and a regular cadence of standups, weekly syncs, and stakeholder updates that keep the team and broader audience aligned at every stage.
+1. **Initiation** – Validate the idea with a lightweight project charter or one-pager. Confirm the business need, define measurable goals, identify stakeholders, and decide whether to proceed.
+2. **Planning** – Turn the approved initiative into an actionable plan: build a prioritized backlog, estimate scope, define acceptance criteria and Definition of Done, document risks and dependencies, and map milestones to releases.
+3. **Execution** – Deliver in small, testable increments. Track work on a project board (Backlog → Ready → In Progress → In Review → QA → Done), keep pull requests focused, and maintain the team rhythm of standups, delivery syncs, and stakeholder updates.
+4. **Release** – Verify in staging, follow the deployment checklist, publish release notes, confirm rollback readiness, and run post-deploy checks.
+5. **Retrospective / Continuous Improvement** – After each release or milestone, capture what went well, what should change, and specific action items to feed back into the process.
 
-Roles are clearly defined — Project Manager, Product Manager, Developers, QA/Testing, and Stakeholders — so accountability and decision-making stay straightforward no matter the project size.
+Throughout every stage, the team manages risk proactively via a risk register and keeps stakeholders informed through defined communication cadences and clear escalation paths.
 
-## Documents
+## Document Index
 
 | Document | Description |
 |---|---|
-| [Project Management Overview](octoacme-project-management-overview.md) | Principles, roles, key artifacts, and the high-level lifecycle |
-| [Project Initiation](octoacme-project-initiation.md) | How to validate and authorize a new initiative |
-| [Project Planning](octoacme-project-planning.md) | Backlog building, estimation, milestones, and Definition of Done |
-| [Execution & Tracking](octoacme-execution-and-tracking.md) | Day-to-day workflow, project board, PR process, and quality checks |
-| [Risks & Communication](octoacme-risks-and-communication.md) | Risk register, escalation paths, and communication cadence |
-| [Release & Deployment](octoacme-release-and-deployment.md) | Staging, deployment checklist, rollback, and post-deploy verification |
-| [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Running retros and tracking improvement action items |
-| [Roles & Personas](octoacme-roles-and-personas.md) | Detailed responsibilities and goals for each team role |
+| [Project Management Overview](octoacme-project-management-overview.md) | Principles, core roles, key artifacts, and the high-level lifecycle |
+| [Project Initiation](octoacme-project-initiation.md) | Charter template, intake criteria, and kickoff checklist |
+| [Project Planning](octoacme-project-planning.md) | Backlog setup, estimation, milestones, and Definition of Done |
+| [Execution and Tracking](octoacme-execution-and-tracking.md) | Board workflow, PR practices, and daily/weekly team rhythm |
+| [Risks and Communication](octoacme-risks-and-communication.md) | Risk register, escalation paths, and communication cadence |
+| [Release and Deployment](octoacme-release-and-deployment.md) | Staging verification, deployment checklist, and rollback planning |
+| [Retrospective and Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective format, action tracking, and improvement loops |
+| [Roles and Personas](octoacme-roles-and-personas.md) | Responsibilities and communication expectations for each role |
